@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar/Navbar"
 import Banner from "./Components/Navbar/Banner/Banner"
 import Ratings from "./Components/Navbar/Ratings/Ratings"
 import Carts from "./Components/Navbar/Carts/Carts"
+import Getstartedsteps from "./Components/Navbar/Getstartedsteps/Getstartedsteps"
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <Banner></Banner>
     <Ratings></Ratings>
     <Carts ModelPromise={ModelPromise}></Carts>
+    <Getstartedsteps></Getstartedsteps>
     </>
   )
 }
