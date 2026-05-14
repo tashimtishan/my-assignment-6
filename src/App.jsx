@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar/Navbar"
 import Banner from "./Components/Navbar/Banner/Banner"
+import Ratings from "./Components/Navbar/Ratings/Ratings"
 function App() {
   
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <Navbar></Navbar>
     <Banner></Banner>
+    <Ratings></Ratings>
     </>
   )
 }
