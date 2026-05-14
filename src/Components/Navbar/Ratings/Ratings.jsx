@@ -1,6 +1,6 @@
 const Ratings = () => {
     return (
-        <section className="mt-50 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-15">
+        <section className="mt-50 bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-15">
            <div className="flex  divide-x divide-white/40 justify-center">
              <div className="px-16 text-center">
             <h2 className="font-bold text-6xl text-white mb-4">50K+</h2>
