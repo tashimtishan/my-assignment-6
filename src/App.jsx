@@ -4,6 +4,7 @@ import Ratings from "./Components/Navbar/Ratings/Ratings"
 import Carts from "./Components/Navbar/Carts/Carts"
 import Getstartedsteps from "./Components/Navbar/Getstartedsteps/Getstartedsteps"
 import PricingSection from "./Components/Navbar/PricingSection/PricingSection"
+import Footer from "./Components/Navbar/Footer/Footer"
 
 
 
@@ -24,6 +25,7 @@ function App() {
     <Carts ModelPromise={ModelPromise}></Carts>
     <Getstartedsteps></Getstartedsteps>
     <PricingSection></PricingSection>
+    <Footer></Footer>
     </>
   )
 }
