@@ -2,8 +2,9 @@ import { Play } from "lucide-react";
 const Banner = () => {
     return (
         <section className="flex flex-col md:flex-row max-w-7xl mx-auto mt-10 gap-10 min-h-auto md:min-h-150 px-5">
+            {/* new div here */}
             <div className=" w-fit shrink-0 mt-30 mr-3">
-                <p className="inline-flex items-center gap-1 rounded-full bg-[rgb(225,231,255)] px-3 py-1 text-[rgb(110,41,248)] mb-5"><img src="../src/assets/Group 5 (1).png" alt="" />New: AI-Powered Tools Available</p>
+                <p className="inline-flex items-center gap-1 rounded-full bg-[rgb(225,231,255)] px-3 py-1 text-[rgb(110,41,248)] mb-5"><img src="/Group 5 (1).png" alt="" />New: AI-Powered Tools Available</p>
                 <h1 className="font-bold text-5xl md:text-8xl mb-5">Supercharge Your<br />Digital Workflow</h1>
                 <p className="text-[#627382] text-[18px] mb-5">Access premium AI tools, design assets, templates, and productivity<br />software—all in one place. Start creating faster today.<br />Explore Products</p>
                <div className="flex gap-3">
