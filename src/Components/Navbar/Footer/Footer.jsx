@@ -36,9 +36,9 @@ const Footer = () => {
         <div>
             <p className="mb-2 text-xl">Social Links</p>
            <div className="flex gap-3">
-            <a href=""> <img className="bg-white p-2 rounded-full" src="/src/assets/Instagram (1).png" alt="" /></a>
-            <a href=""><img className="bg-white p-2 rounded-full" src="/src/assets/Facebook (1).png" alt="" /></a>
-           <a href=""> <img className="bg-white p-2 rounded-full" src="/src/assets/fi_5968958.png" alt="" /></a>
+            <a href=""> <img className="bg-white p-2 rounded-full" src="/Instagram (1).png" alt="" /></a>
+            <a href=""><img className="bg-white p-2 rounded-full" src="/Facebook (1).png" alt="" /></a>
+           <a href=""> <img className="bg-white p-2 rounded-full" src="/fi_5968958.png" alt="" /></a>
            </div>
         </div>
       </div>
