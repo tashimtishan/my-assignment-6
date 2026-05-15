@@ -3,6 +3,7 @@ import Banner from "./Components/Navbar/Banner/Banner"
 import Ratings from "./Components/Navbar/Ratings/Ratings"
 import Carts from "./Components/Navbar/Carts/Carts"
 import Getstartedsteps from "./Components/Navbar/Getstartedsteps/Getstartedsteps"
+import PricingSection from "./Components/Navbar/PricingSection/PricingSection"
 
 
 
@@ -22,6 +23,7 @@ function App() {
     <Ratings></Ratings>
     <Carts ModelPromise={ModelPromise}></Carts>
     <Getstartedsteps></Getstartedsteps>
+    <PricingSection></PricingSection>
     </>
   )
 }
