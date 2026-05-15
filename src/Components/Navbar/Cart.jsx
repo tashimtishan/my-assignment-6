@@ -1,8 +1,11 @@
+import { ShoppingCart } from "lucide-react";
+import { toast } from "react-toastify";
 const Cart = ({cart,SetCart}) => {
      const total = cart.reduce((sum, item) => sum + item.price, 0);
 
       const handleRemove = (index) => {
         SetCart(prev => prev.filter((_, i) => i !== index))
+        toast.success("items removed successfully")
     }
     console.log(cart)
     return (
@@ -10,7 +13,7 @@ const Cart = ({cart,SetCart}) => {
         <h1 className="font-bold text-2xl">Your Cart</h1>
         <div>
             <div>
-        {cart.length === 0 && <p className="text-gray-400 py-4 text-center text-2xl">No items in cart.</p>}
+        {cart.length === 0 && <div className="flex flex-col items-center py-8 text-gray-400"><ShoppingCart size={60}></ShoppingCart><p className="text-gray-400 py-4 text-center text-2xl">No items in cart.</p></div>}
           {cart.map((item, index) => (
             <div key={index} className="flex p-4 items-center mb-5 rounded-xl shadow gap-4 bg-[#F9FAFC] justify-between">
               <div className="flex items-center gap-4">
@@ -30,9 +33,9 @@ const Cart = ({cart,SetCart}) => {
         <p className="text-gray-500">Total:</p>
         <p className="font-bold text-2xl">${total}</p>
         </div>)}
-        <div>
-            <button onClick={()=>SetCart([])} className="btn w-full mt-3 py-3 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Proceed To Checkout</button>
-        </div>
+       { cart.length>0 &&(<div>
+            <button onClick={()=>{toast.success("payment successful"),SetCart([])}} className="btn w-full mt-3 py-3 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Proceed To Checkout</button>
+        </div>)}
         </div>
        </section>
     );

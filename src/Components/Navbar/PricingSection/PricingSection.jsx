@@ -20,7 +20,8 @@ const PricingSection = () => {
         <button className="btn w-full rounded-full px-20 py-5 mt-5 bg-[#7525f8] text-white">Get Started Free</button>
         </div>
 
-         <div className="shadow-lg p-10 rounded-2xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">
+         <div className="relative shadow-lg p-10 rounded-2xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">
+        <span className="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-black text-xs font-bold px-4 py-1 rounded-full">Most Popular</span>
         <h4 className="font-bold text-2xl">Pro</h4>
         <p className="mb-5">Best for professionals</p>
         <p className="font-bold text-3xl mb-5">$29/month</p>

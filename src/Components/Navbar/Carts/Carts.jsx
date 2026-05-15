@@ -19,8 +19,8 @@ const Carts = ({ModelPromise,Activetab,Useactivetab,cart,SetCart}) => {
 
                 {/* name of each tab group should be unique */}
              <div className="tabs tabs-box justify-center bg-transparent mt-3 mb-8">
-             <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label="Products" defaultChecked onClick={()=>Useactivetab("Products")}/>
-             <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label="Cart" onClick={()=>Useactivetab("Cart")}/>
+             <input type="radio" name="my_tabs_1" className={`tab rounded-full w-30 ${Activetab === "Products" ? "tab-active bg-[#7525f8]! text-white!" : ""}`}  aria-label="Products" defaultChecked onClick={()=>Useactivetab("Products")}/>
+             <input type="radio" name="my_tabs_1" className={`tab rounded-full w-30 ${Activetab === "Cart" ? "tab-active bg-[#7525f8]! text-white!" : ""}`}  aria-label="Cart" onClick={()=>Useactivetab("Cart")}/>
              </div>
                <div className="max-w-7xl mx-auto grid gap-8 grid-cols-3">
                 { Activetab === "Products" && models.map((model,index)=>
