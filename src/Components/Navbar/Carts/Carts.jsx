@@ -22,7 +22,7 @@ const Carts = ({ModelPromise,Activetab,Useactivetab,cart,SetCart}) => {
              <input type="radio" name="my_tabs_1" className={`tab rounded-full w-30 ${Activetab === "Products" ? "tab-active bg-[#7525f8]! text-white!" : ""}`}  aria-label="Products" defaultChecked onClick={()=>Useactivetab("Products")}/>
              <input type="radio" name="my_tabs_1" className={`tab rounded-full w-30 ${Activetab === "Cart" ? "tab-active bg-[#7525f8]! text-white!" : ""}`}  aria-label="Cart" onClick={()=>Useactivetab("Cart")}/>
              </div>
-               <div className="max-w-7xl mx-auto grid gap-8 grid-cols-3">
+               <div className="max-w-7xl mx-auto grid gap-8 grid-cols-1 md:grid-cols-3 px-5">
                 { Activetab === "Products" && models.map((model,index)=>
                <Modelcarts model={model} index={index} key={model.id} cart={cart} SetCart={SetCart}></Modelcarts>
             )}

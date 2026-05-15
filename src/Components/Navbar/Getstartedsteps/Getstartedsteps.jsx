@@ -1,11 +1,11 @@
 const Getstartedsteps = () => {
     return (
-        <section className="p-50 bg-[#F9FAFC] mt-30">
+        <section className="px-10 py-20 md:p-50 bg-[#F9FAFC] mt-30">
             <div className="text-center">
             <h2 className="font-bold text-5xl mb-3">Get Started in 3 Steps</h2>
             <p className="text-[#627382] mb-8">Start using premium digital tools in minutes, not hours.</p>
             </div>
-            <div className="max-w-7xl mx-auto grid grid-cols-3 gap-9">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-9">
                 <div className="px-5 py-30 flex flex-col items-center text-center rounded-xl bg-white shadow-lg">
                 <img src="/user.png" className="rounded-full p-4 bg-[rgb(243,232,254)] mb-5" alt="" />
                 <h3 className="text-2xl font-semibold mb-3">Create Account</h3>

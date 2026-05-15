@@ -36,7 +36,7 @@ const Modelcarts = ({model,index,cart,SetCart}) => {
             <p className="text-[#627382] mb-4">{model.description}</p>
             </div>
             <div>
-            <p className="font-bold text-xl mb-2">${model.price}/mo</p>
+            <p className="font-bold text-xl mb-2">${model.price}/{model.period}</p>
             </div>
             <div>
             {model.features.map(feature=><p className="text-[#627382] flex items-center gap-1 mb-3">

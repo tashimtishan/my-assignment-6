@@ -1,12 +1,12 @@
 import { Check } from "lucide-react";
 const PricingSection = () => {
     return (
-      <section className="p-50">
+      <section className="px-5 py-20 md:p-50">
         <div className="text-center">
         <h1 className="text-5xl font-bold mb-4">Simple, Transparent Pricing</h1>
         <p className="mb-10">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
-       <div className="flex justify-center gap-10 mt-5">
+       <div className="flex flex-col md:flex-row justify-center gap-10 mt-5 px-5">
          <div className="shadow-lg p-10 rounded-2xl bg-[rgb(249,250,252)]">
         <h4 className="font-bold text-2xl">Starter</h4>
         <p className="mb-5">Perfect for getting started</p>

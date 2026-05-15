@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
        <footer className="bg-[#101727]">
-      <div className="flex max-w-8xl mx-auto text-white p-50 gap-20">
-          <div className="mx-20">
+      <div className="flex flex-col md:flex-row max-w-8xl mx-auto text-white p-10 md:p-50 gap-10 md:gap-20">
+          <div className="md:mx-20">
         <h1 className="text-5xl font-bold mb-5">DigiTools</h1>
         <p>Premium digital tools for creators,<br /> professionals, and businesses. Work smarter with our suite of powerful tools.</p>
         </div>

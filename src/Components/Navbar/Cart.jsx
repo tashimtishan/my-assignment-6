@@ -9,7 +9,7 @@ const Cart = ({cart,SetCart}) => {
     }
     console.log(cart)
     return (
-       <section className="max-w-7xl mx-auto p-10 rounded-xl border border-gray-300">
+       <section className="max-w-7xl mx-auto p-5 md:p-10 rounded-xl border border-gray-300 mx-4 md:mx-auto">
         <h1 className="font-bold text-2xl">Your Cart</h1>
         <div>
             <div>
