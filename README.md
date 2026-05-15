@@ -1,16 +1,20 @@
-# React + Vite
+webpage name: DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+a description for the webpage:
+A digital tools buying website where you can browse and buy premium tools like AI writing tools, design templates, stock assets and more. I built this as part of an assignment project using React and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+Technologies Used:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React.js
+Tailwind CSS
+DaisyUI
+JavaScript
+React-Toastify
 
-## Expanding the ESLint configuration
+ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ You can add products to cart and remove them individually or clear the whole cart when you proceed to checkout
+ Toast notifications pop up whenever you add or remove a product so you always know whats happening
+ The site is fully responsive so it works on mobile and desktop both
